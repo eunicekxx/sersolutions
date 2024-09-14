@@ -5,3 +5,46 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.ser-animated.in-view {
+  position: relative;
+  left: -100%;
+  transition: 2s;
+  transform: translateX(100%);
+}
+
+.ser-hidden {
+  overflow: hidden;
+}
+
+.solutions-animated.in-view {
+  position: relative;
+  right: -100%;
+  transition: 2s;
+  transform: translateX(-100%);
+}
+
+.solutions-hidden {
+  overflow: hidden;
+}
+
+a {
+  width: fit-content;
+}
+
+a::after {
+  display: block;
+  content: '';
+  position: relative;
+  left: 0;
+  bottom: -10px;
+  width: 0%;
+  top: -2px;
+  height: 3px;
+  background-color: black;
+  transition: all .5s;
+}
+
+a:hover::after {
+  width: 100%;
+}

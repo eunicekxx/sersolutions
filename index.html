@@ -15,21 +15,29 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
 
+    <script src="js/main.js" defer></script>
+
 </head>
 
 <body>
-    <header class="bg-stone-300">
-        <div class="container mx-auto">
+    <header class="bg-stone-300 h-screen">
+        <div class="container mx-auto h-full">
             <h1 class="inter-700 text-xl"><a href="#" class="p-4 inline-block">SER Solutions</a></h1>
-            <div class="flex justify-center items-center h-[50rem]">
+            <div class="flex justify-center items-center h-full">
                 <div class="flex gap-x-4">
                     <div class="inline-block mt-[-12px]">
-                        <p class="font-bold text-5xl tracking-wide md:text-8xl md:tracking-widest mb-4 inter-700">SER</p>
-                        <div class="bg-black min-h-4"></div>
+                        <p class="font-bold text-5xl tracking-wide md:text-8xl md:tracking-widest mb-4 inter-700">SER
+                        </p>
+                        <div class="ser-hidden">
+                            <div class="bg-black min-h-4 ser-animated animate"></div>
+                        </div>
                     </div>
                     <div class="inline-block">
-                        <div class="bg-black min-h-4"></div>
-                        <p class="font-bold text-5xl tracking-wide md:text-8xl md:tracking-widest mt-4 inter-700">SOLUTIONS</p>
+                        <div class="solutions-hidden">
+                            <div class="bg-black min-h-4 solutions-animated animate"></div>
+                        </div>
+                        <p class="font-bold text-5xl tracking-wide md:text-8xl md:tracking-widest mt-4 inter-700">
+                            SOLUTIONS</p>
                     </div>
                 </div>
             </div>
@@ -40,33 +48,50 @@
             <section>
                 <section class="mb-8">
                     <h2 class="text-5xl inter-700 mb-4">About the Team</h2>
-                    <p>SER Solutions is a newly formed Web Design and Development team looking to make a name for ourselves. We
+                    <p>SER Solutions is a newly formed Web Design and Development team looking to make a name for
+                        ourselves. We
                         excel at creating innovative responsive web presences for our clients. </p>
                 </section>
                 <section class="mb-8">
                     <h3 class="text-5xl inter-700 mb-4">Meet the Members</h3>
                     <div class="md:flex">
                         <section class="mb-4">
+                            <img src="https://placehold.co/400x400" alt="" class="mb-4">
                             <h4 class="text-3xl inter-700 mb-4 md:mb-0">Sarah</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque aperiam delectus non quia est iure saepe magnam eius perspiciatis, voluptatum aut fugit quae velit iusto itaque minus quaerat et.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque aperiam delectus
+                                non quia est iure saepe magnam eius perspiciatis, voluptatum aut fugit quae velit iusto
+                                itaque minus quaerat et.</p>
                         </section>
                         <section class="mb-4">
+                            <img src="https://placehold.co/400x400" alt="" class="mb-4">
                             <h4 class="text-3xl inter-700 mb-4 md:mb-0">Eunice</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque aperiam delectus non quia est iure saepe magnam eius perspiciatis, voluptatum aut fugit quae velit iusto itaque minus quaerat et.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque aperiam delectus
+                                non quia est iure saepe magnam eius perspiciatis, voluptatum aut fugit quae velit iusto
+                                itaque minus quaerat et.</p>
                         </section>
                         <section class="mb-4">
+                            <img src="https://placehold.co/400x400" alt="" class="mb-4">
                             <h4 class="text-3xl inter-700 mb-4 md:mb-0">Ryan</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque aperiam delectus non quia est iure saepe magnam eius perspiciatis, voluptatum aut fugit quae velit iusto itaque minus quaerat et.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque aperiam delectus
+                                non quia est iure saepe magnam eius perspiciatis, voluptatum aut fugit quae velit iusto
+                                itaque minus quaerat et.</p>
                         </section>
                     </div>
                 </section>
                 <section>
                     <h3 class="text-5xl inter-700 mb-4">Our Projects</h3>
                     <section>
-                        <h4 class="text-3xl inter-700 mb-4"><a href="https://zouzouhair.com/" target="_blank" class="hover:text-yellow-900">Zouzou Hair</a></h4>
+                        <h4 class="text-3xl inter-700 mb-4"><a href="https://zouzouhair.com/" target="_blank"
+                                class="hover:text-yellow-900">Zouzou Hair</a></h4>
                         <div class="md:flex md:gap-x-4">
-                            <img src="img/zouzou-hair.webp" alt="Screenshot of the Zouzou Hair website before the rebuild." class="md:w-2/4 mb-4">
-                            <p>This project is currently in progress.</p>
+                            <img src="img/zouzou-hair.webp"
+                                alt="Screenshot of the Zouzou Hair website before the rebuild." class="md:w-2/4 mb-4">
+                            <div class="flex justify-center items-center">
+                                <div>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veniam, velit neque accusamus, labore sapiente doloribus porro exercitationem quo corrupti iste omnis. Blanditiis repellat ipsam quasi! Quidem quis totam eveniet?</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, omnis! Molestiae eligendi nulla doloribus, eaque exercitationem unde possimus voluptas facere porro perferendis velit in, beatae sed qui, ab quam architecto?</p>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </section>
